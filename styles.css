@@ -18,9 +18,12 @@ header {
     grid-template-rows: 1fr;
 }
 #logo {
-    width: 200px;
+    margin: 10px;
+    width: 150px;
     height: auto;
     justify-self: center;
+    box-shadow: 0px 5px 5px #0f172a;
+    border: 5px solid #0f172a;
 }
 #navigation{
     display: flex;

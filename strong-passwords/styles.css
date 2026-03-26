@@ -1,0 +1,70 @@
+/* FONTS (Heading: Cambria; Paragraph: Calibri Light) */
+/* Colors:                   */
+    /* Primary:      #1d4ed8 */
+    /* Secondary:    #0f172a */
+    /* Accent 1:     #60a5fa */
+    /* Accent 2:     #e5e7eb */
+
+
+
+/* Header Style (same for every page) */
+body {
+    margin: 0;
+}
+header {
+    background-color: #1d4ed8;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+#logo {
+    margin: 10px;
+    width: 150px;
+    height: auto;
+    justify-self: center;
+    box-shadow: 0px 5px 5px #0f172a;
+    border: 5px solid #0f172a;
+}
+#navigation{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-items: center;
+    margin: 50px 50px 50px 0;
+}
+#nav {
+    padding: 5px;
+    border: 5px solid #60a5fa;
+}
+a {
+    text-decoration: none;
+    font-weight: inherit;
+    color: inherit;
+    font-size: 25px;
+    font-family: "Cambria", serif;
+    color: #e5e7eb;
+    text-shadow: 2px 2px 4px #0f172a;
+;
+}
+/* Footer Style (same for every page) */
+footer {
+    background-color: #1d4ed8;
+    text-align: center;
+    color: #e5e7eb;
+    border: 5px solid #1d4ed8;
+}
+#feeter {
+    padding: 20px;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 15px;
+    border: 5px solid #0f172a;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: #60a5fa;
+    color: #0f172a;
+    
+}
+
+
+/* Main Content Style (different for each page) STRONG PASSWORDS PAGE */
