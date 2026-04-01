@@ -25,14 +25,37 @@ header {
     box-shadow: 0px 5px 5px #0f172a;
     border: 5px solid #0f172a;
 }
-#navigation{
+#navigation {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
+    list-style: none;
     list-style-type: none;
     align-items: center;
     justify-items: center;
     margin: 50px 50px 50px 0;
+    padding: 0;
 }
+
+#navigation li {
+    padding: 10px 15px;
+    border: 2px solid #60a5fa;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+#navigation li:hover {
+    background-color: #60a5fa;
+    transform: scale(1.05);
+}
+
+#navigation a {
+    text-decoration: none;
+    font-family: "Cambria", serif;
+    color: #e5e7eb;
+    font-size: 1.2rem;
+}
+
 #nav {
     padding: 5px;
     border: 5px solid #60a5fa;
@@ -45,8 +68,47 @@ a {
     font-family: "Cambria", serif;
     color: #e5e7eb;
     text-shadow: 2px 2px 4px #0f172a;
-;
 }
+
+.passwrod-page {
+    font-family: "calibri Light", sans-serif;
+    padding: 20px;
+    color: #0f172a;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #60a5fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #0f172a;
+}
+
+.card h2 {
+    font-family: "Cambria", serif;
+}
+
+.tips {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #0f172a;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
 /* Footer Style (same for every page) */
 footer {
     background-color: #1d4ed8;
@@ -68,3 +130,12 @@ footer {
 
 
 /* Main Content Style (different for each page) STRONG PASSWORDS PAGE */
+
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+    #navigation {
+        flex-direction: column;
+    }
+}
