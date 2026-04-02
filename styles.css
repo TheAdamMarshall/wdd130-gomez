@@ -68,3 +68,40 @@ footer {
 
 
 /* Main Content Style (different for each page) */
+
+#hero-image {
+    width: auto;
+    max-height: 200px;
+    box-shadow: 0px 5px 5px #0f172a;
+    border: 5px solid #0f172a;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    background-color: #e5e7eb;
+}
+#hero-img {
+    grid-column: 1 / 2;
+    justify-self: center;
+    align-self: center;
+}
+#hero-intro {
+    grid-column: 2 / 3;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 18px;
+    color: #0f172a;
+    padding: 20px;
+}
+#sec-tips {
+    display: grid;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #60a5fa;
+    color: #0f172a;
+    font-family: "Cambria", serif;
+    font-size: 18px;
+    border: 5px solid #0f172a;
+    justify-self: center;
+    align-self: center;
+}
