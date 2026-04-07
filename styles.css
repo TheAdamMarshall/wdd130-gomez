@@ -105,3 +105,19 @@ footer {
     justify-self: center;
     align-self: center;
 }
+
+#contain-wpm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#wpm {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #0f172a;
+    border-radius: 10%;
+}
